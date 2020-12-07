@@ -20,7 +20,7 @@ function setup() {
 
 	//Create the Bodies Here.
 	boy=createSprite(200,600,10,10);
-	boy.addImage(boyImg);
+	boy.add(boyImg);
 
 	ground = new Ground(600,height,1200,20);
 	stone = new Stone(100,600,5);
